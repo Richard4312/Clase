@@ -1,0 +1,17 @@
+- Herramientas
+  - Navegador
+  - VSCODE (htmlhint/five-server)
+- Conseptos basicos
+ - Sintaxis -> etiquetas, atributos y contenido / Comentarios
+ - Elementos HTML= etiquetas, atributo,contenido
+ - Index.html como nombre obligatorio(index en minuscula)
+
+- HTML= Hipertext Markup Language (lenguaje de marcado)
+- http://midominio.com/ --> httpsdors(barra), busca la raiz de esa carpeta
+- Comentario= <!-- 
+- Arbol (etiqueta2 descendiente de etiqueta1), el contenido2 tambien se toma como descendiente de etiqueta 1,es decir, etiqueta1 tiene dos descendientes(etiqueta2 y contenido2) 
+- <html> == elemento raiz
+- Descendientes de <html>= <head> y <body>
+- Un solo elemento h1 por ser el titulo principal
+-     <meta charset="UTF-8"> ( entiende las dieresis, aporstrofes, acentos,etc)
+- <meta name="viewport" content="width=device-width, initial-scale=1.0"> (tamaño)
