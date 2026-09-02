@@ -1,0 +1,80 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Huellitas - Contacto</title>
+</head>
+
+<body>
+    <header>
+        <a href="">
+            <img src="./recursos/imagenes/logo_mascota.png" alt="logo huellitas">
+
+        </a>
+
+        <nav>
+            <a href="./index.html">Inicio</a>
+            <a href="./catalogo.html">catalogo</a>
+            <a href="./contacto.html">contacto</a>
+
+        </nav>
+
+
+
+    </header>
+
+    <main>
+        <!-- Formulario web-->
+        <h1>Contacto</h1>
+        <form action="contacto.html" method="post">
+            <!--
+          nombre
+          telefono
+          mail
+          tamaño
+          direccion
+          Consulta
+        -->
+          <label for="id-nombre">Nombre</label>
+            <input type="text" name="nombre" id="id-nombre">
+            <label for="id-telefono">Telefono</label>
+            <input type="tel" name="telefono" id="id-telefono">
+            <label for="id-email">Email</label>
+            <input type="email" name="email" id="id-email">
+            <label for="id-tamaño">Tamaños</label>
+            <select name="tamaño-mascota" id="id-tamaño">
+                <option value="P">Pequeño</option>
+                <option value="M">Mediano</option>
+                <option value="G">Grande</option>
+
+            </select>
+            <label for="id-direccion">Direccion</label>
+            <input type="text" name="direccion" id="id-direccion">
+            <label for="id-comentario"> Comentarios</label>
+            <textarea name="comentarios" id="id-comentario"></textarea>
+            
+            <!--                       -->
+
+            <!-- <input type="submit" value="Enviar"> -->
+            <button type="submit">Enviar</button>
+            
+        </form>
+    </main>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="Huellitas: http://instagram.com/@huellitas" target="_blank">
+                    @huellitas
+                </a>
+            </li>
+            <li>
+                Rondeau 175 - Cordoba
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
