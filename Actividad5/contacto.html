@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FerNutrición - Quién soy / Servicios</title>
+    <title>FerNutrición - Contacto</title>
 </head>
 
 <body>
@@ -21,23 +21,44 @@
 
     <main>
 
-        <h1>Quién soy</h1>
+        <h1>Contacto</h1>
 
-        <h2>Sobre mí</h2>
-        <p>Hola, soy Fer, nutricionista con 4 años de experiencia acompañando a personas que quieren mejorar su alimentación sin dietas imposibles ni prohibiciones extremas. Creo en un enfoque realista, adaptado a la rutina, los gustos y los objetivos de cada paciente. Mi trabajo no es solo armar un plan de comidas, sino acompañarte en el proceso de generar hábitos que puedas sostener en el tiempo.</p>
+        <h2>Formulario de consulta</h2>
 
-        <h2>Servicios</h2>
-        <ul>
-            <li>Consulta nutricional inicial</li>
-            <li>Plan alimentario personalizado</li>
-            <li>Seguimiento mensual de objetivos</li>
-            <li>Asesoramiento en nutrición deportiva</li>
-            <li>Planes para objetivos específicos (bajar de peso, ganar masa muscular, mejorar hábitos)</li>
-            <li>Consultas de seguimiento online</li>
-        </ul>
+        <p>¿Querés dar el primer paso hacia una alimentación más saludable? Completá el siguiente formulario y me pondré en contacto con vos a la brevedad.</p>
 
-        <h2>Trayectoria</h2>
-        <p>Hace 4 años que ejerzo como nutricionista, período en el que acompañé a numerosos pacientes en procesos de cambio de hábitos alimenticios, siempre priorizando un enfoque cercano y personalizado. Me capacito constantemente para poder ofrecer planes actualizados y adaptados a las necesidades reales de cada persona, más allá de las modas o dietas pasajeras.</p>
+        <form action="contacto.html" method="post">
+            <!--
+          nombre
+          apellido
+          telefono
+          mail
+          contenido de la consulta
+        -->
+            <label for="id-nombre">Nombre</label>
+            <input type="text" name="nombre" id="id-nombre">
+
+            <label for="id-apellido">Apellido</label>
+            <input type="text" name="apellido" id="id-apellido">
+
+            <label for="id-telefono">Teléfono</label>
+            <input type="tel" name="telefono" id="id-telefono">
+
+            <label for="id-mail">Mail</label>
+            <input type="email" name="mail" id="id-mail">
+
+            <label for="id-consulta">Consulta</label>
+            <textarea name="consulta" id="id-consulta"></textarea>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+
+        <h2>
+            Dónde estamos
+        </h2>
+        <p>Vélez Sarsfield 520 - Córdoba</p>
+        <iframe src="https://www.google.com/maps?q=Vélez+Sarsfield+520,+Córdoba,+Argentina&output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
     </main>
 
@@ -49,7 +70,7 @@
                 </a>
             </li>
             <li>
-                Córdoba, Argentina
+                Vélez Sarsfield 520 - Córdoba
             </li>
         </ul>
     </footer>
