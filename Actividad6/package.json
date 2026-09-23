@@ -1,0 +1,11 @@
+{
+  "name": "actividad-6",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "five-server --root=src"
+  },
+  "dependencies": {
+    "five-server": "^0.4.5"
+  }
+}

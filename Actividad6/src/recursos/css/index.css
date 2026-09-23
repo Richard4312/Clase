@@ -1,0 +1,49 @@
+* {
+    /* outline: 1px red solid;*/
+}
+
+html, body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4fbf4;
+}
+
+header {
+    background-color: #a5d6a7; /*!important;*/
+}
+
+a {
+    text-decoration: none;
+    color: #1b5e20;
+}
+
+/* selectors de CLASE */
+.vinculo-pie {
+    color: #1b5e20;
+}
+
+/* Cabecera */
+.cabecera-principal {
+    color: #1b5e20;
+}
+
+.cabecera-principal a img {
+    width: 50px;
+}
+
+.cabecera-principal nav a {
+    color: #1b5e20;
+}
+
+/* contenido principal */
+.contenido-principal {
+
+}
+
+/* pie principal */
+.pie-principal {
+    background-color: #a5d6a7;
+}
