@@ -1,0 +1,76 @@
+/*
+Sintaxis
+*/
+/*
+REGLA CSS
+selector{
+    propiedad1: valor;
+    propiedad2: valor;
+    propiedad3: valor;
+}
+    */
+
+@font-face {
+    font-family: Open Sans;
+    src: url(./fuentes/OpenSans_Condensed-Regular.ttf);
+}
+html,body,h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Open Sans, 
+    font-size: 10px; 
+}
+
+
+/* Selectores de TIPO */
+body{
+    background-color: aqua;
+}
+header{
+    background-color: rgb(49, 25, 25);
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* selectors de CLASE */
+.vinculo-pie{
+    color: #333333;
+}
+
+/* Cabecera */
+.cabecera-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: ;
+    background-color: #e9f79b;
+
+}
+.cabecera-principal nav a{
+    color: #999999;
+}
+
+/* contenido principal */
+.contenido-principal{
+    background-color: #a5ffe4;
+}
+
+.contenido-principal .contenedor{
+    width: 300px;
+    height: 200px;
+    padding: 10px 5px 3px 8px;
+    background-color: #ccc;
+    border: 2px solid #000;
+}
+.contenido-principal .contenedor p{
+    font-size: 0.9rem;
+}
+/* pie principal */
+.pie-principal{
+    background-color: #e9f79b;
+}

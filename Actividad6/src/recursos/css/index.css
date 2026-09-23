@@ -1,18 +1,21 @@
 * {
     /* outline: 1px red solid;*/
 }
-
-html, body, h1, h2, h3, p {
+.contenido-principal {
+margin-bottom: 20px;
+}
+html, body,  p {
     margin: 0;
     padding: 0;
+
 }
 
 body {
-    background-color: #f4fbf4;
+    background-color: #a3c9a3;
 }
 
 header {
-    background-color: #a5d6a7; /*!important;*/
+    background-color: #6dad70; /*!important;*/
 }
 
 a {
@@ -31,7 +34,7 @@ a {
 }
 
 .cabecera-principal a img {
-    width: 50px;
+    width: 110px;
 }
 
 .cabecera-principal nav a {
@@ -39,9 +42,7 @@ a {
 }
 
 /* contenido principal */
-.contenido-principal {
 
-}
 
 /* pie principal */
 .pie-principal {
