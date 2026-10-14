@@ -50,7 +50,10 @@ Los errores no tienen el mismo tiempo en el complilado que en javascript que has
 
 -code runner(usa node)
 
+-  ===  compara tambien el tipo
 
-
+- nunca se compara dos valores  primitivos de forma directa
+(numeros1 === numeros2) mal
+(numeros1[0] === numeros2[0])  bien
 
 
