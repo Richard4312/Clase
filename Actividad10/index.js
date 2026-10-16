@@ -47,12 +47,31 @@ for( let i=1 ;i <= numeros.length; i++){
 
 //Ejercicio 2B
 
-const numeros2 = [10,9,8,7,6,5,4,3,2,1]
-
-for( let i=10; i <=numeros2.length;i--)
+for( let i=10 ; i>=1; i--)
    { console.log(i)}
-    
 
-    
+
+//Ejercicio 2C
+
+for( let i=0 ; i <= 20; i++){
+    if(i % 2 == 0 ){
+      console.log('Es par')
+}
+else {
+    console.log('Es impar')
+}
+}
+
+
+//Ejercicio 2D
+
+
+    for (let i = 0; i <= 20; i++) {
+  if (i % 2 === 0) {
+    console.log(`El número ${i} es par`);
+  } else {
+    console.log(`El número ${i} es impar`);
+  }
+}
 
 
