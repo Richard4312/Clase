@@ -1,7 +1,7 @@
 const productosMascotas = [
     {
         nombre: "Collar Ajustable de Nylon",
-        imagen: "./recursos/imagenes/producto/correa.jpg",
+        imagen: "./recursos/imagenes/perro-gato.jpg",
         descripcion: "Resistente collar de nylon con broche de seguridad para perros.",
         talles: ["S", "M", "L"],
         precio: 12.50
@@ -71,54 +71,57 @@ const productosMascotas = [
     }
 ];
 
-
-
 const contenedorProductos = document.getElementById('contenedor-productos')
 
-console.log(contenedorProductos)
-/*
-contenedorProductos.innerHTML=`
-                <article>
-                    <h3>Collar perro tachas</h3>
-                    <picture>
-                        <img src="./recursos/imagenes/producto/correa.jpg" alt="Correa para perro">
-                    </picture>
-                    <p>
-                        Correa de 5mts para perro
-                    </p>
-                    <ul>
-                        <li>Talles S M L</li>
-                        <li>Precio $ 10000</li>
-                    </ul>
-                </article> `
-*/
+// console.log(contenedorProductos)
 
-let productosHTML =''
-productos.forEach((producto)=>{
-    productosHTML+=`
-                <article>
-                    <h3>${producto,nombre}</h3>
-                    <picture>
-                        <img src="${producto.imagen}" alt="${producto,nombre}">
-                    </picture>
-                    <p>
-                        ${producto,descripcion}
-                    </p>
-                    <ul>
-                        <li>${producto,talles[0]}</li>
-                        <li>${productosHTML.precio}</li>
-                    </ul>
-                </article>`             
+// contenedorProductos.textContent = '<h3>Producto 1</h3>'
+// contenedorProductos.innerHTML = '<h3>Producto 1</h3>'
+// contenedorProductos.innerHTML = `
+// <article>
+//     <h3>Collar perro tachas</h3>
+//     <picture>
+//         <img src="./recursos/imagenes/producto/correa.jpg" alt="Correa para perro">
+//     </picture>
+//     <p>
+//         Correa de 5mts para perro
+//     </p>
+//     <ul>
+//         <li>Talles S M L</li>
+//         <li>Precio $ 10000</li>
+//     </ul>
+// </article>
+// `
+
+/*
+TAREA
+Crear funcion con parametros
+renderizarProductos
+
+1 parametro referencia al contenedor
+2 parametro del arreglo de objetos de productos
+return String de <article>
+
+*/
+// 
+let productosHTML = ''
+productosMascotas.forEach((producto)=>{
+    productosHTML += `
+<article>
+    <h3>${producto.nombre}</h3>
+    <picture>
+        <img src="${producto.imagen}" alt="${producto.nombre}">
+    </picture>
+    <p>
+        ${producto.descripcion}
+    </p>
+    <ul>
+        <li>Talle ${producto.talles[0]}</li>
+        <li>Precio $ ${productosHTML.precio}</li>
+    </ul>
+</article>
+`
 })
 
-//console.log(productosHTML)
+// console.log(productosHTML)
 contenedorProductos.innerHTML = productosHTML
-
-//TAREA
-
-//crear una funcion con 2 parametros
-//renderizarProductos
-
-//1 parametro referencia al contenedor
-//2  parametro del arreglo de objetos de productos
-//return String de <article>
