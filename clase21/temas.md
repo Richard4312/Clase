@@ -1,0 +1,1 @@
+-Utilizar local storage para el contador de productos
