@@ -1,4 +1,4 @@
-function renderizarProductos(productos,contenedorProductos){
+function renderizarProductos(productos,contenedor){
 let productosHTML =''
 
 productos.forEach((producto) =>{
@@ -20,7 +20,7 @@ productos.forEach((producto) =>{
 })
 
 
-contenedorProductos.innerHTML = productosHTML
+contenedor.innerHTML = productosHTML
 }
 
 
